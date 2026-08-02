@@ -21,7 +21,7 @@
         "@eslint/js": "^10.0.1",
         "@fontsource/inter": "^5.2.8",
         "@fontsource/jetbrains-mono": "5.3.0",
-        "@fontsource/lato": "5.2.7",
+        "@fontsource/lato": "5.3.0",
         "@fontsource/source-sans-3": "5.3.0",
         "@iconify-json/lucide": "^1.2.115",
         "@iconify-json/simple-icons": "^1.2.88",
@@ -238,7 +238,7 @@
 
     "@fontsource/jetbrains-mono": ["@fontsource/jetbrains-mono@5.3.0", "", {}, "sha512-fqDfB5I9f1p1TV486aUgB9t8zP84P0O1FtQR5Ol9vjwPy+S+EIGlVYm1cvj2W5shcZMTg2nZFdVMoH5wFu8a1A=="],
 
-    "@fontsource/lato": ["@fontsource/lato@5.2.7", "", {}, "sha512-k5mum1ADbDW5cTw1Ett1eQVWeoZ6gq0ct6SFBibEhB4LRxhniChJZTBgd6ph5yBxLkN1fcnsnmicBNA4S/3nbw=="],
+    "@fontsource/lato": ["@fontsource/lato@5.3.0", "", {}, "sha512-0WhF/4rhrw+ErIyneKvhHn2YAl+xf8GDtllgOgOzDmeaSlLQtjpChXaQOpWhG2BchQW0WJy2zLV12Hdg0ndOMw=="],
 
     "@fontsource/source-sans-3": ["@fontsource/source-sans-3@5.3.0", "", {}, "sha512-VrWixSgF93kOVSEkwjs9ImnAbxrBew4PgcnaJYEitG9TyJSwxjFUNJIgzB1XFP/acyAWcTDg7+sWe7JI8LTB9w=="],
 
