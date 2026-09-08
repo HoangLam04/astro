@@ -1,13 +1,10 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Chạy workflow mỗi khi có code mới đẩy lên nhánh `main`
   push:
     branches: [ main ]
-  # Cho phép bạn kích hoạt workflow bằng tay từ tab Actions
   workflow_dispatch:
 
-# Cấp quyền cần thiết để GitHub Actions có thể deploy lên Pages
 permissions:
   contents: read
   pages: write
@@ -19,11 +16,11 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v4
+        
       - name: Install, build, and upload your site
         uses: withastro/action@v3
-        # Nếu package.json của bạn không nằm ở thư mục ngoài cùng, hãy bỏ comment dòng dưới và trỏ tới đúng thư mục
-        # with:
-          # path: ./thu-muc-chua-code
+        with:
+          node-version: 26
 
   deploy:
     needs: build
